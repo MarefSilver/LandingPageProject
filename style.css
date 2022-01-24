@@ -49,6 +49,7 @@ body {
     flex: 1;
     align-items: center;
     flex-direction: row-reverse;
+    margin-right: 10%;
 }
 
 .head-btn {
@@ -66,7 +67,6 @@ body {
 
 .head-btn3 {
     order: 1;
-    margin-right: 10%;
 }
 
 a:link, a:visited {
