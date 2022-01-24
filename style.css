@@ -8,10 +8,14 @@ body {
     margin: 0px;
 }
 
+
 /* div {
     border: 2px solid red;
 }
 */
+
+
+
 
 /* Header: */
 /* ** Header General */
@@ -19,7 +23,9 @@ body {
     display: flex;
     background-color: #1F2937;
     height: 20%;
+    /* border-bottom: 2px solid #f9faf8;*/
 }
+
 
 
 /* ** Logo settings */
@@ -33,6 +39,7 @@ body {
     font-size: 24px;
     color: #f9faf8;
 }
+
 
 
 /* ** Button Settings */
@@ -64,4 +71,14 @@ body {
 
 a:link, a:visited {
     text-decoration: none;
+}
+
+
+
+
+/* Hero: */
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
 }
