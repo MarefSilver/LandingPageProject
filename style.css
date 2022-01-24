@@ -2,21 +2,36 @@
     font-family: roboto; 
 }
 
+body {
+    margin: 0px;
+}
 
-div {
+/* div {
     border: 2px solid red;
 }
+*/
+
 
 .header {
     display: flex;
     background-color: #1F2937;
-    margin: 0px;
+    height: 20%;
 }
+
+
 
 .logo-cont {
     display: flex;
     flex: 1;
+    margin-left: 10%;
 }
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
 
 .btn-cont {
     display: flex;
@@ -26,7 +41,24 @@ div {
     flex-direction: row-reverse;
 }
 
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
+.head-btn {
+    color: #e5e7eb;
+    margin-right: 30px;
+}
+
+.head-btn1 {
+    order: 3;
+}
+
+.head-btn2 {
+    order: 2;
+}
+
+.head-btn3 {
+    order: 1;
+    margin-right: 10%;
+}
+
+a:link, a:visited {
+    text-decoration: none;
 }
