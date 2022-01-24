@@ -83,7 +83,7 @@ body {
 
 
 
-/* ** */
+/* ** Hero and Subtext:*/
 .hero-cont {
     display: flex;
     flex-direction: column;
@@ -91,7 +91,6 @@ body {
     margin-bottom: 5%;
     align-items: center;
     flex: 1;
-    
 }
 
 .hero {
@@ -108,6 +107,7 @@ body {
 .sign-in {
     background-color: #3882f6;
     border-radius: 10px;
+    padding: 5px;
 }
 
 .sign-btn {
@@ -127,6 +127,7 @@ body {
 
 .pic {
     align-items: center;
+    justify-content: center;
     display: flex;
 }
 
