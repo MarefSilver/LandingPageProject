@@ -1,0 +1,32 @@
+* {
+    font-family: roboto; 
+}
+
+
+div {
+    border: 2px solid red;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    margin: 0px;
+}
+
+.logo-cont {
+    display: flex;
+    flex: 1;
+}
+
+.btn-cont {
+    display: flex;
+    font-size: 18px;
+    flex: 1;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
