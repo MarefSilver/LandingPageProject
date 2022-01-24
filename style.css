@@ -9,10 +9,10 @@ body {
 }
 
 
-/* div {
+ div {
     border: 2px solid red;
 }
-*/
+
 
 
 
@@ -69,16 +69,77 @@ body {
     order: 1;
 }
 
-a:link, a:visited {
-    text-decoration: none;
-}
+
 
 
 
 
 /* Hero: */
-
-.hero {
+/* ** General Setting:*/
+.main-hero {
     display: flex;
     background-color: #1F2937;
+}
+
+
+
+/* ** */
+.hero-cont {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    align-items: center;
+    flex: 1;
+    
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.subhero {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-in {
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.sign-btn {
+    color: #f9faf8;
+}
+
+
+
+/* ** Picture:*/
+.pic-cont {
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 5%;
+}
+
+.pic {
+    align-items: center;
+    display: flex;
+}
+
+.img {
+    width: 50%;
+}
+
+
+
+
+
+
+
+a:link, a:visited {
+    text-decoration: none;
 }
