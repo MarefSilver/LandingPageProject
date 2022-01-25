@@ -9,10 +9,10 @@ body {
 }
 
 
- div {
+/* div {
     border: 2px solid red;
 }
-
+*/
 
 
 
@@ -181,6 +181,15 @@ body {
     flex-shrink: 1;
 }
 
+
+
+
+
+/*Quote:*/
+/* ** Main Settings:*/
+.main-qut {
+    background-color: #e5e7eb;
+}
 
 
 
