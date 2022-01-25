@@ -149,6 +149,7 @@ body {
 }
 
 
+
 /* ** Information Header:*/
 .info-cont {
     display: flex;
@@ -165,6 +166,7 @@ body {
 }
 
 
+
 /* ** Pictures:*/
 .img-cont {
     margin-left: 10%;
@@ -176,14 +178,8 @@ body {
 
 .img0 {
     flex-basis: 200px;
-}
-
-.img1, .img2, .img3, .img4 {
-    flex-basis: 200px;
     flex-shrink: 1;
 }
-
-
 
 
 
