@@ -181,6 +181,10 @@ body {
     flex-shrink: 1;
 }
 
+.img-border {
+    border: #3882f6 solid 5px;
+    border-radius: 20px;
+}
 
 
 
