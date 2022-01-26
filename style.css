@@ -9,10 +9,10 @@ body {
 }
 
 
-/* div {
+ div {
     border: 2px solid red;
 }
-*/
+
 
 
 
@@ -174,6 +174,7 @@ body {
 .img-cont {
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -227,6 +228,7 @@ body {
     margin-right: 10%;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 5%;
 }
 
 .qout {
@@ -241,18 +243,70 @@ body {
 
 /* Call to action: */
 /* ** General Settings:*/
-
+.main-call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* ** CtA Text:*/
+.call-cont {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #3882f6;
+    border-radius: 15px;
+    justify-content: space-around;
+    flex: 1;
+}
 
+.call-text {
+    display: flex;
+    margin: 5% 0 5% 5%;
+    flex-direction: column;
+}
+
+.call-head {
+    color: #f9faf8;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.call-subhead {
+    color: #f9faf8;
+    font-size: 20px;
+}
 
 
 
 /* ** CtA Button:*/
+.call-sign-cont {
+    margin: 5% 5% 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
+.call-sign {
+    display: flex;
+    border-radius: 10px;
+    border: 2px #f9faf8 solid;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.call-btn {
+    color: #f9faf8;
+    font-size: 20px;
+}
 
 
 
