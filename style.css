@@ -314,12 +314,19 @@ body {
 
 /*Footer:*/
 /* ** General Settings:*/
-
+.main-foot {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+}
 
 
 
 /* ** Text:*/
-
+.copyr {
+    margin: 2% 10%;
+    color: #f9faf8;
+}
 
 
 
