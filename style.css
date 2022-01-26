@@ -17,6 +17,7 @@ body {
 
 
 
+
 /* Header: */
 /* ** Header General */
 .header {
@@ -191,6 +192,7 @@ body {
 
 
 
+
 /*Quote:*/
 /* ** Main Settings:*/
 .main-qut {
@@ -198,6 +200,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 
 
 /* ** Quote:*/
@@ -217,6 +220,7 @@ body {
 }
 
 
+
 /* ** Quoting:*/
 .qout-cont {
     margin-left: 10%;
@@ -230,6 +234,27 @@ body {
     font-size: 25px;
     font-weight: bold;
 }
+
+
+
+
+
+/* Call to action: */
+/* ** General Settings:*/
+
+
+
+/* ** CtA Text:*/
+
+
+
+
+/* ** CtA Button:*/
+
+
+
+
+
 
 
 a:link, a:visited {
