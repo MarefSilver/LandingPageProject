@@ -9,10 +9,10 @@ body {
 }
 
 
-/* div {
+ div {
     border: 2px solid red;
 }
-*/
+
 
 
 
@@ -88,6 +88,7 @@ body {
     flex-direction: column;
     margin-left: 10%;
     margin-bottom: 5%;
+    margin-top: 5%;
     flex: 1;
 }
 
@@ -125,6 +126,7 @@ body {
     align-items: center;
     flex: 1;
     margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .pic {
@@ -193,8 +195,41 @@ body {
 /* ** Main Settings:*/
 .main-qut {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
 }
 
+
+/* ** Quote:*/
+.qut-cont {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding-bottom: 0%;
+    display: flex;
+}
+
+.qut {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+
+/* ** Quoting:*/
+.qout-cont {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.qout {
+    color: #1F2937;
+    font-size: 25px;
+    font-weight: bold;
+}
 
 
 a:link, a:visited {
